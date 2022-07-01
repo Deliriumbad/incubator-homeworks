@@ -1,0 +1,17 @@
+.checkbox {
+    /*appearance: none; /*изменяет внешний вид элемента, при сохранении его функций. */
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: #F137A6;
+}
+.checkbox:checked{
+   /* !*appearance: none;*!
+    background-image: url("checked.jpg");*/
+}
+.checkbox:focus {
+    outline: #8a2be2 solid 2px;
+}
+.spanClassName {
+
+}

@@ -1,0 +1,29 @@
+
+.superInput,
+.errorInput{
+    margin: 10px;
+    border: 3px solid #c0c0c0;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.errorInput:focus{
+    background-color: lightblue;
+    border: 3px solid #555;
+    outline: none;
+}
+
+.superInput:focus{
+    background-color: lightblue;
+    border: 3px solid #555;
+    outline: none;
+}
+
+.error {
+    color: red;
+    margin-left: 80px;
+}
+
+.finalSpanClassName {
+    height: 30px;
+}
