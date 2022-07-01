@@ -4,7 +4,7 @@ import s from './Message.module.css';
 
 const messageData = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Artem',
+    name: 'Vit',
     message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus, eius exercitationem facilis hic\n' +
         '    minima modi non nulla obcaecati odio praesentium quaerat, quod, reiciendis sit soluta suscipit temporibus veniam\n' +
         '    voluptatem.\n',

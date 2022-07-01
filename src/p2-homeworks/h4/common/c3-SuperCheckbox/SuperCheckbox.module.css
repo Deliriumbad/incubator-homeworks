@@ -4,14 +4,22 @@
     height: 20px;
     cursor: pointer;
     color: #F137A6;
+    border-radius: 3px;
+    margin-right: 7px;
 }
 .checkbox:checked{
    /* !*appearance: none;*!
     background-image: url("checked.jpg");*/
 }
 .checkbox:focus {
-    outline: #8a2be2 solid 2px;
+    outline: white solid 1px;
 }
-.spanClassName {
 
+.checkbox:hover {
+    outline: #8a2be2 solid 1px;
+    box-shadow: 0 0 10px 0 #8a2be2 inset, 0 0 10px 2px white;
+}
+
+.spanClassName {
+    font-weight: bold;
 }
