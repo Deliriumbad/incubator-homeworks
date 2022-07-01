@@ -50,6 +50,10 @@
     cursor: pointer;
 }
 
+.filterButton:last-child {
+    margin-right: 0;
+}
+
 .filterButton:focus {
     background-color: maroon;
     color: white;
