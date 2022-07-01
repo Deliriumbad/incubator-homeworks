@@ -14,7 +14,7 @@
 }
 
 .affair {
-    margin: 5px 29px;
+    margin: 5px 19px;
     display: inline-block;
     width: 80px;
     border-bottom: 1px solid #2c0c0c;
@@ -43,10 +43,10 @@
 
 .filterButton {
     border: solid 1px;
-    margin: 10px 6px 0 0;
+    margin: 10px 2px 0 0;
     background-color: aliceblue;
     border-radius: 3px;
-    padding: 5px 15px;
+    padding: 5px 14px;
     cursor: pointer;
 }
 
