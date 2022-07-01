@@ -12,11 +12,19 @@
     outline: none;
 }
 
+.errorInput:hover {
+    background-color: lightblue;
+}
+
 .superInput:focus{
     background-color: lightblue;
     border: 3px solid #555;
     outline: none;
 }
+.superInput:hover {
+    background-color: lightblue;
+}
+
 
 .error {
     color: #990000;
