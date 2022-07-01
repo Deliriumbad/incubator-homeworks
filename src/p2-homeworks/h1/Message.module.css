@@ -15,27 +15,27 @@
 
 .wrapper {
     background-color: darkgray;
-    /*background-color: #aba3a3;*/
     display: flex;
     flex-direction: row;
-    width: 400px;
+    max-width: 400px;
     position: relative;
     border-radius: 3px;
-}
-
-.contentWrapper {
-    background-color: #082103;
-    width: 300px;
-    margin: 15px 0;
-    padding: 10px 0;
-    position: relative;
-    border-radius: 10px 10px 10px 0;
 }
 
 .avatarWrapper {
     display: flex;
     align-items: end;
 }
+
+.contentWrapper {
+    background-color: #082103;
+    width: 60%;
+    margin: 15px 0;
+    padding: 10px 0;
+    position: relative;
+    border-radius: 10px 10px 10px 0;
+}
+
 
 .contentWrapper::before {
     content: "";

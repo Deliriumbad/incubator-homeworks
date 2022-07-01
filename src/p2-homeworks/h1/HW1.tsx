@@ -5,7 +5,7 @@ import s from './Message.module.css';
 const messageData = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
     name: 'Artem',
-    message: 'Npm start нажимал?',
+    message: 'Npm start htrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrнажимал?',
     time: '22:00',
 }
 
