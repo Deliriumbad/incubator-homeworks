@@ -46,7 +46,7 @@ function HW2() {
 
     return (
         <div className={s.container}>
-            homeworks 2
+            <h3>homeworks 2</h3>
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}

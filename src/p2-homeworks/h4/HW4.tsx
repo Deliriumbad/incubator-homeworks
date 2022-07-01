@@ -21,7 +21,7 @@ function HW4() {
 
     return (
         <div className={s.container}>
-            homeworks 4
+            <h3>homeworks 4</h3>
             <div className={s.column}>
                 <SuperInputText
                     value={text}
@@ -38,18 +38,18 @@ function HW4() {
                 {/*----------------------------------------------------*/}
 
                 <SuperButton>
-                    default
+                    Default
                 </SuperButton>
 
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
                 >
-                    delete {/*// название кнопки попадёт в children*/}
+                    Delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
                 <SuperButton disabled>
-                    disabled
+                    Disabled
                 </SuperButton>
 
                 {/*----------------------------------------------------*/}
@@ -65,7 +65,6 @@ function HW4() {
                                onChange={testOnChange}
                 />
             </div>
-            <hr/>
         </div>
     )
 }

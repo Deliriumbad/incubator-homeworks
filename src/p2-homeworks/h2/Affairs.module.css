@@ -9,45 +9,51 @@
     box-shadow: inset 0 -3px 13px -1px black;
 }
 
-
-.hW2 {
-    height: 260px;
-}
-
-.someClass {
+.container h3 {
+    margin: 10px 0;
 }
 
 .affair {
     margin: 5px 35px;
     display: inline-block;
     width: 80px;
+    border-bottom: 1px solid #2c0c0c;
 }
 
 .button {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 58px;
 }
 
 .button button {
-   border-radius: 5px;
+    border-radius: 3px;
+    border: solid 1px;
+    padding: 5px 17px;
 }
 
 .button button:hover {
-    color: #8a7378;
-    background-color: aquamarine;
+    box-shadow: 0 0 10px 0 #8a2be2 inset, 0 0 10px 2px white;
+    color: black;
+    border: 1px solid white;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .filterButton {
-    margin-left: 10px;
-    background-color: #3cafa5;
+    border: solid 1px;
+    margin: 10px 10px 0 0;
+    background-color: aliceblue;
     border-radius: 3px;
+    padding: 5px 15px;
+    cursor: pointer;
 }
 
 .filterButton:focus {
-    background-color: #ffe17f;
+    background-color: maroon;
+    color: white;
 }
 
 .filterButton:hover {
-    background-color: darkseagreen;
+    box-shadow: 0 0 10px 0 #8a2be2 inset, 0 0 10px 2px white;
 }
 

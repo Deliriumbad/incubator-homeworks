@@ -29,7 +29,7 @@ export const Greeting: React.FC<GreetingPropsType> = (props) => {
                    onBlur={onBlurHandler}
                    placeholder={placeholder}
             />
-            <button onClick={addUser} className={s.button}>add</button>
+            <button onClick={addUser} className={s.button}>Add</button>
             <span className={s.counter}>{totalUsers}</span>
             <div className={errorTextClass}>{error}</div>
         </div>

@@ -20,10 +20,10 @@ export const Affair: React.FC<AffairPropsType> = (props) => {
     return (
         <div>
             <div className={s.affair}>
-                {affair.name}
+                {affair.name}:
             </div>
             <div className={s.button}>
-                <button onClick={deleteCallback}>del</button>
+                <button onClick={deleteCallback}>Del</button>
             </div>
         </div>
     );

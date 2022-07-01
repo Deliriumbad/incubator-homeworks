@@ -19,7 +19,7 @@ function HW3() {
 
     return (
         <div className={s.container}>
-            homeworks 3
+            <h3>homeworks 3</h3>
             <GreetingContainer users={users}
                                addUserCallback={addUserCallback}
             />
