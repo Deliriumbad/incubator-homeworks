@@ -13,6 +13,7 @@ const messageData = {
 
 function HW1() {
     return (
+
         <div className={s.container}>
             <h3>homeworks 1</h3>
             <Message

@@ -36,9 +36,9 @@
     box-shadow: 0 0 10px 0 #8a2be2 inset, 0 0 10px 2px white;
     color: white;
     border: 1px solid white;
-    transition: .3s;
     cursor: pointer;
     background: #8a2be2;
+    transition: .3s;
 }
 
 .filterButton {
@@ -61,5 +61,6 @@
 
 .filterButton:hover {
     box-shadow: 0 0 10px 0 #8a2be2 inset, 0 0 10px 2px white;
+    transition: .3s;
 }
 
