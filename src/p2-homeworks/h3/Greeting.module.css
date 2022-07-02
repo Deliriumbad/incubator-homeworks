@@ -63,4 +63,5 @@
 .wrapper input:focus {
     background-color: lightblue;
     outline: none;
+    border: 3px solid #555;
 }
