@@ -14,7 +14,7 @@
     height: 25px;
     background: maroon;
     color: white;
-    padding: 0 7px;
+    padding: 3px 7px;
     border-radius: 3px;
     border: 1px solid white;
     text-align: center;
@@ -24,13 +24,31 @@
     margin-left: 50px;
 }
 
-.header{
+.header {
     display: flex;
     width: 350px;
     transition-duration: 500ms;
     transform: translate(-280px);
+    flex-direction: row;
 }
-.header:hover{
+
+.header:hover {
     transition-duration: 500ms;
     transform: translate(0px);
+}
+
+@media only all and (max-width: 410px) {
+    .block:last-child {
+        margin-left: 10px;
+    }
+
+    .header {
+        width: 270px;
+        transform: translate(-220px);
+        font-size: 14px;
+    }
+
+    .block {
+        padding: 2px 1px;
+    }
 }
