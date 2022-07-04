@@ -1,0 +1,36 @@
+.link {
+    text-decoration: none;
+    color: black;
+    width: 250px;
+    text-align: center;
+}
+
+.link:hover {
+    color: ghostwhite;
+}
+
+.block {
+    width: 160px;
+    height: 25px;
+    background: maroon;
+    color: white;
+    padding: 0 7px;
+    border-radius: 3px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.block:last-child {
+    margin-left: 50px;
+}
+
+.header{
+    display: flex;
+    width: 350px;
+    transition-duration: 500ms;
+    transform: translate(-280px);
+}
+.header:hover{
+    transition-duration: 500ms;
+    transform: translate(0px);
+}
