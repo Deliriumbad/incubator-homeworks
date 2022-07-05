@@ -12,12 +12,10 @@ function PreJunior() {
             <HW2/>
             <HW3/>
             <HW4/>
-            {/*<HW6/>*/}
-
+            <HW6/>
         </div>
     )
 }
-
 export default PreJunior
 
 // сделайте по аналогии пустые страницы джун и джун+

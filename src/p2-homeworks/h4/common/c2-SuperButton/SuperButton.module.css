@@ -1,16 +1,18 @@
 .default {
     text-decoration: none;
     display: inline-block;
-    padding: 5px 20px;
+    padding: 5px 15px;
     margin: 10px 20px;
     border-radius: 5px;
     border: 1px solid black;
     box-shadow: 0 0 40px 40px #8a2be2 inset, 0 0 0 0 #8a2be2;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: white;
     transition: .15s ease-in-out;
+    max-width: 100px;
+    text-align: center;
 }
 .default:hover {
     box-shadow: 0 0 10px 0 #8a2be2 inset, 0 0 10px 4px #8a2be2;
@@ -18,18 +20,19 @@
     transition: .5s;
     cursor: pointer;
     border: 1px solid #8a2be2;
+    align-items: center;
+    justify-content: center;
 }
 
 .red {
     background: #8a2be2;
-    display: inline-block;
     padding: 5px 20px;
     margin: 10px 20px;
     border-radius: 5px;
     box-shadow: 0 0 40px 40px white inset, 0 0 0 0 #8a2be2;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: black;
     transition: .15s ease-in-out;
     border: 1px solid black;
