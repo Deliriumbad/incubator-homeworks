@@ -22,10 +22,10 @@ function HW6() {
                 <SuperEditableSpan
                     value={value}
                     onChangeText={setValue}
-                    spanProps={{children: value ? undefined : ' Enter text...'}}
+                    spanProps={{children: value ? undefined : ' Enter text after dblclick'}}
                 />
             </div>
-            <div style={{display: 'flex'}}>
+            <div style={{display: 'flex', paddingLeft: '13px'}}>
                 <SuperButton onClick={save}>Save</SuperButton>
                 <SuperButton onClick={restore}>Restore</SuperButton>
             </div>
