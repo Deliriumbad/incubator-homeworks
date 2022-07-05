@@ -1,0 +1,23 @@
+.select{
+   width: 150px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #efe8e8;
+   /* appearance: none;   - убирает стандартный вид*/
+}
+
+.select:focus{
+    outline: none;
+    background-color: #aba3a3;
+}
+
+.select:hover{
+    outline: none;
+    background-color: #aba3a3;
+    transition: .3s;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 10px 0 whitesmoke inset, 0 0 10px 4px white;
+}
