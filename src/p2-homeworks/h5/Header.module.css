@@ -30,7 +30,7 @@
     transition-duration: 500ms;
     transform: translate(-280px);
     flex-direction: row;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
 }
 
