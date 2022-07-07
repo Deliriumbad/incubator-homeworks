@@ -1,0 +1,35 @@
+.container {
+    background: #7a7575;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 15px;
+    margin: 15px 0 3px;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+    box-shadow: inset 0 -3px 13px -1px black;
+}
+
+.container h3 {
+    margin: 10px 0;
+}
+
+.items{
+    display: flex;
+    max-width: 320px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button{
+    margin: 5px;
+    width: 100px;
+    padding: 5px 11px;
+}
+
+.buttons button:first-child {
+    margin-left: 0;
+}
