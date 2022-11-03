@@ -17,7 +17,6 @@ function HW11() {
         setValue2(nums[1])
     }
 
-
     return (
         <div className={s.container}>
             <h3>homeworks 11</h3>
