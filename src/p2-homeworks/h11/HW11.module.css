@@ -1,0 +1,50 @@
+.container {
+    background: #7a7575;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 15px;
+    margin: 15px 0 3px;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+    box-shadow: inset 0 -3px 13px -1px black;
+}
+
+.container h3 {
+    margin: 10px 0;
+}
+
+.values {
+    background-color: grey;
+    width: 10%;
+    position: relative;
+    padding: 10px 0;
+    margin: 40px auto;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
+.values:before {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 15px solid grey;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    margin: auto;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: #5d5a5a;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: -5px;
+}
